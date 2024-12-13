@@ -72,7 +72,7 @@ async def upload_video_to_url(upload_url: str, file_path: str) -> None:
                 if response.status != 200:
                     raise Exception(f"Failed to upload video: {response.status}, {await response.text()}")
 
-async def create_post(hash_value: str, title: str, category_id: int = 69) -> None:
+async def create_post(hash_value: str, title: str, category_id: int = 25) -> None:
     """
     Create a post on the Socialverse platform using the video hash.
     """
