@@ -1,0 +1,15 @@
+import aiohttp : For making asynchronous HTTP requests to APIs .
+import instaloader : A library for downloading content from Instagram.
+import asyncio : For writing asynchronous code (handles multiple tasks without blocking execution).
+import shutil : For performing high-level file operations like deleting directories.
+import os : For interacting with the operating system (e.g., creating directories, file operations, environment variables).
+import sys: For handling command-line arguments and exiting the script.
+
+OTHER REQUIRED ELEMENTS:
+    ~FLIC API TOKEN
+    ~END POINTS URL
+    ~POST URL
+    ~INSTAGRAM REEL URL
+
+
+
